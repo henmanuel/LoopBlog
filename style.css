@@ -1,0 +1,251 @@
+/*
+Theme Name: Loop
+Theme URI: http://www.loopzone.org
+Description: Loop Zone Aprende Crea Produce. Todos los derechos reservado.
+Author: Henmanuel Vargas
+Author URI: http://www.loopzone.org
+Version: 1.0
+*/
+@font-face{
+	font-family: 'rew';
+	src: url('Quicksand-Regular.ttf');
+}
+html{
+	width:100%;
+	height:100%;
+	display: block;
+}
+body{
+	width:100%;
+	height:100%;
+	float: left;
+	display: block;
+	margin: 0 auto;
+	background-color:#f2f2f2;
+	font-family:rew;
+	font-size:18px;
+}
+h2, h3{
+	text-align:center;
+}
+a{
+	color:#bfbfbf;
+	text-decoration:none;
+}
+a:visited{
+	color:#4dff4d;
+}
+input:focus {
+	outline: none;
+	color: gray;
+}
+#content{
+	padding-top: 100px;
+}
+#barra{
+	width:100%;
+	height:75px;
+	float:left;
+	position:fixed;
+	z-index:1;
+	border-bottom:solid #ebebe0 1px;
+	background-color:#808080;
+}
+.plus{
+	width:50px;
+	float:left;
+	position:fixed;
+	z-index:2;
+	margin-left:5px;
+	margin-top:12.5px;
+	cursor:pointer;
+}
+#s{
+	width:60%;
+	height:50px;
+	margin-left:20%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:solid #ebebe0 1px;
+	border-radius:5px;
+	font-size:30px;
+	text-align:center;
+	font-family:rew;
+}
+#barra img{
+	width:50px;
+	float:right;
+	margin-right:5px;
+	margin-top:12.5px;
+}
+.modal{
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	display: none;
+	align-items: center;
+	position:fixed;
+	z-index:10;
+	background-color:rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+#modal{
+	width:100%;
+	height:100%;
+	box-sizing: border-box;
+	overflow: scroll;
+	background-color:white;
+	border:1px solid #888;
+}
+.modalClose{
+	float:right;
+	color:#aaaaaa;	
+	text-align:center;
+	font-size:45px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.modAlert{
+	max-width:80%;
+	min-width:300px;
+	margin:auto;
+	padding: 5px;
+	text-align:center;
+	background-color:white;
+}
+.modalAcept{
+	width:100px;
+	height:50px;
+	display:block;
+	margin:0 auto;
+	cursor:pointer;
+	background-color:#fefefe;
+	border:1px solid #888;
+	color:#888;
+	font-size:25px;
+}
+#main{
+	width:100%;
+	padding-top: 90px;
+}
+.postcont{
+	width:95%;
+	height:auto;
+	float:left;
+	background-color:white;
+	margin-left:2.5%;
+	margin-bottom:30px;
+	border: 1px solid #bfbfbf;
+	border-radius:3px;
+	color:black;
+}
+.postbar h2{
+	text-align:center;
+}
+.postbar h2 a{
+	color:#bfbfbf;
+}
+.postcont p{
+	width:95%;
+	height:auto;
+	margin-left:2.5%;
+	text-align:justify;
+}
+.thumbnail{
+	height:300px;
+}
+.thumbnail img{
+	width:100%;
+	height:100%;
+}
+.inf{
+	color:#a6a6a6;
+}
+.post{
+	background-color:white;
+	border-radius:5px;
+	display:blog;
+	padding-left:5px;
+	padding-top:25px;
+	padding-bottom:20px;
+}
+.post p{
+	width:95%;
+	margin:0 auto;
+	text-align:justify;
+}
+.aligncenter{
+	margin-left:5%;
+	width:90%;
+	height:70%;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.fb-comments{
+	width:100%;
+}
+footer{
+	width:100%;
+	float:left;
+	margin-top:10px;
+	padding-bottom:15px;
+	border-top:solid #cccccc 1px;
+	background-color:#e6e6e6;
+	text-align:center;
+}
+footer p{
+	color:#808080;
+	width:100%;
+	display:none;
+	float:left;
+}
+.navLoop{
+	width:100%;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+}
+@media only screen and (min-width:800px){
+	#main{
+		width:90%;
+		margin-left:5%;
+		float:left;
+		padding-top: 90px;
+	}
+	#s{
+		width:30%;
+		margin-left:35%;
+	}
+	.postcont{
+		width:45%;
+		margin-left:3%;
+	}
+	.postcont p{
+		min-height:150px;
+	}
+	.aligncenter{
+		margin-left:22.5%;
+		width:55%;
+		height:300px;
+	}
+	footer p{
+		width:22%;
+		height:50px;
+		display:block;
+		padding-left:1.5%;
+		padding-right:1.5%;
+	}
+	footer p img{
+		height:50px;
+		display:block;
+		margin:0 auto;
+	}
+	.navLoop{
+		width:22%;
+		float:left;
+		text-align:center;
+		padding-left:1.5%;
+		padding-right:1.5%;
+	}
+}
