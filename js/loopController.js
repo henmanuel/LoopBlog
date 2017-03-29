@@ -29,7 +29,7 @@ function plus(){//objeto longPress
 	var pressTimer;
 	$('#plusCont').remove('#plusLogIn');
 	if ($("#plus").length == 0){
-		$('#plusCont').append('<img id="plus" class="plus" src="http://loopzone.hol.es/wp-content/themes/loop/images/plus.png">');
+		$('#plusCont').append('<img id="plus" class="plus" src="http://loopzone.org/wp-content/themes/LoopBlog/images/plus.png">');
 		$('#plus').mousedown(function(){
 			pressTimer = window.setTimeout(function() {
 				
@@ -70,9 +70,8 @@ function faceLogin(){
 				plus();
 			}else if(response.status === 'not_authorized'){
 				modal('authModal','views/authorized.html');
-				alert('no');
 			}else{
-				$('#plusCont').append('<img id="plusLogIn" class="plus" src="http://loopzone.hol.es/wp-content/themes/loop/images/fb.png">');
+				$('#plusCont').append('<img id="plusLogIn" class="plus" src="http://loopzone.org/wp-content/themes/LoopBlog/images/fb.png">');
 				$('#plusLogIn').click(function(){
 					login();
 				});
