@@ -70,6 +70,7 @@ function faceLogin(){
 				plus();
 			}else if(response.status === 'not_authorized'){
 				modal('authModal','views/authorized.html');
+				alert('no');
 			}else{
 				$('#plusCont').append('<img id="plusLogIn" class="plus" src="http://loopzone.hol.es/wp-content/themes/loop/images/fb.png">');
 				$('#plusLogIn').click(function(){
