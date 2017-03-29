@@ -57,7 +57,7 @@ function faceLogin(){
 
 	window.fbAsyncInit = function() {
 		FB.init({
-			appId      : '1413878928878484',
+			appId      : '1857724527809655',
 			xfbml      : true,
 			version    : 'v2.7'
 		});
